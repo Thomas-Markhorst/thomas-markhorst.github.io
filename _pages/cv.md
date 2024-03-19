@@ -9,56 +9,16 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+On this page you will find an overview of my academic background and professional experience. [Click](https://drive.google.com/file/d/1we-y3MNwgj8yWl6toP_oZTpGoHlCJq-F/view?usp=share_link){:target="_blank"} for my resume in pdf format.
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Education
+* PhD candidate at Computer Vision Lab, Delft University of Technology, (current)
+* MSc in Computer Science - Artificial Intelligence (cum laude), Delft University of Technology, 2023
+* BSc in Computer Science (cum laude), Delft University of Technology, 2018
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Professional experience
+* Computer Vision Research Intern, Bosch, Dec. 2022 - Aug. 2023
+* Computer Vision Research Intern, BMW Group, Aug. 2022 - Nov. 2022
+* Computer Vision Engineer, Krill Robotics, Feb. 2019 - Sept. 2021
+* Software Engineering Intern, TNO, Feb. 2017 - Mar. 2018
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
