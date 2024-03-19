@@ -21,7 +21,7 @@ repository               : "thomas-markhorst/thomas-markhorst.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "IMG_9891.jpeg"
   name             : "Thomas Markhorst"
   pronouns         : # example: "she/her"  
   bio              : "PhD Candidate Computer Vision @ Delft University of Technology"
