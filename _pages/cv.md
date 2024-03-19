@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+CV
+------
 On this page you will find an overview of my academic background and professional experience. [Click](https://drive.google.com/file/d/1we-y3MNwgj8yWl6toP_oZTpGoHlCJq-F/view?usp=share_link){:target="_blank"} for my resume in pdf format.
 
 ## Education
