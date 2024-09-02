@@ -11,7 +11,7 @@ redirect_from:
 
 CV
 ------
-On this page you will find an overview of my academic background and professional experience. [Click](https://drive.google.com/file/d/1we-y3MNwgj8yWl6toP_oZTpGoHlCJq-F/view?usp=share_link){:target="_blank"} for my resume in pdf format.
+On this page you will find an overview of my academic background and professional experience. [Click](https://thomas-markhorst.github.io/files/resume_thomas_markhorst.pdf){:target="_blank"} for my resume in pdf format.
 ### Education
 * PhD candidate at Computer Vision Lab, Delft University of Technology, (current)
 * MSc in Computer Science - Artificial Intelligence (cum laude), Delft University of Technology, 2023
