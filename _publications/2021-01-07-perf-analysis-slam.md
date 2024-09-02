@@ -6,7 +6,7 @@ excerpt: 'Proper maintenance and inspection of aircraft and their engines is imp
 date: 2021-07-01
 venue: 'TU Delft Repository'
 paperurl: 'http://academicpages.github.io/files/2021-07-01-bsc-thesis.pdf'
-citation: 'Thomas Markhorst, Jan van Gemert. (2021). &quot;Performance analysis of Simultaneous Localization and Mapping to reconstruct aircraft engines in 3D.&quot; <i>TU Delft Repository</i>.'
+citation: 'Thomas Markhorst, Jan C. van Gemert. (2021). &quot;Performance analysis of Simultaneous Localization and Mapping to reconstruct aircraft engines in 3D.&quot; <i>TU Delft Repository</i>.'
 ---
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
