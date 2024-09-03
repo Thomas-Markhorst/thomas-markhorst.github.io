@@ -2,7 +2,7 @@
 title: "Pushing Joint Image Denoising and Classification to the Edge"
 collection: publications
 permalink: /publication/2023-08-22-arch-innovatings-efficient-denoising
-excerpt: 'In this paper, we jointly combine image classification and image denoising, aiming to enhance human perception of noisy images captured by edge devices, like low-light security cameras. In such settings, it is important...'
+excerpt: 'In this paper, we jointly combine image classification and image denoising, aiming to enhance human perception of noisy images captured by edge devices, like low-light security cameras. In such settings, it is important to retain the ability of humans to verify the automatic classification decision and thus jointly denoise the image to enhance human perception. Since edge devices have little computational power...'
 date: 2024-09-29
 venue: 'ECCV Workshop'
 paperurl: 'https://thomas-markhorst.github.io/files/2024-09-29-joint-clas-den.pdf'
