@@ -10,7 +10,7 @@ author_profile: true
 Contact
 ------
 *Address*
-Room 6.E.420 (6th floor east), Van Mourik Broekmanweg 6 (building 28)
+Room 6.E.280 (6th floor east), Van Mourik Broekmanweg 6 (building 28)
 2628 XE, Delft, The Netherlands
 
 *
