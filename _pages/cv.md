@@ -11,17 +11,7 @@ redirect_from:
 
 CV
 ------
-On this page you will find an overview of my academic background and professional experience. [Click](https://thomas-markhorst.github.io/files/resume_thomas_markhorst.pdf){:target="_blank"} for my resume in pdf format.
-<iframe src="/assets/resume_thomas_markhorst.pdf" width="80%" height="600px" style="border: none;"></iframe>
+Download: [Click](https://thomas-markhorst.github.io/files/resume_thomas_markhorst.pdf){:target="_blank"} in pdf format.
+<iframe src="/assets/resume_thomas_markhorst.pdf" width="100%" height="600px" style="border: none;"></iframe>
 
-### Education
-* PhD candidate at Computer Vision Lab, Delft University of Technology, (current)
-* MSc in Computer Science - Artificial Intelligence (cum laude), Delft University of Technology, 2023
-* BSc in Computer Science (cum laude), Delft University of Technology, 2018
-
-### Professional experience
-* Computer Vision Research Intern, Bosch, Dec. 2022 - Aug. 2023
-* Computer Vision Research Intern, BMW Group, Aug. 2022 - Nov. 2022
-* Computer Vision Engineer, Krill Robotics, Feb. 2019 - Sept. 2021
-* Software Engineering Intern, TNO, Feb. 2017 - Mar. 2018
 
