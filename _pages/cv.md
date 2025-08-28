@@ -12,6 +12,6 @@ redirect_from:
 CV
 ------
 Download: [Click](https://thomas-markhorst.github.io/files/resume_thomas_markhorst.pdf){:target="_blank"} in pdf format.
-<iframe src="/assets/resume_thomas_markhorst.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="/assets/resume_thomas_markhorst.pdf" width="100%" height="1000px" style="border: none;"></iframe>
 
 
