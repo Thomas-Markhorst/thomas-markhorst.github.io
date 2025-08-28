@@ -12,7 +12,7 @@ redirect_from:
 CV
 ------
 On this page you will find an overview of my academic background and professional experience. [Click](https://thomas-markhorst.github.io/files/resume_thomas_markhorst.pdf){:target="_blank"} for my resume in pdf format.
-<iframe src="files/resume_thomas_markhorst.pdf" width="80%" height="600px" style="border: none;"></iframe>
+<iframe src="/assets/resume_thomas_markhorst.pdf" width="80%" height="600px" style="border: none;"></iframe>
 
 ### Education
 * PhD candidate at Computer Vision Lab, Delft University of Technology, (current)
