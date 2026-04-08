@@ -3,7 +3,7 @@ title: Pushing Joint Image Denoising and Classification to the Edge
 authors:
   - Thomas Markhorst
   - Jan van Gemert
-  - Osman S Kayhan
+  - Osman Kayhan
 date: 2024-09-13T00:00:00Z
 hugoblox:
   ids:
