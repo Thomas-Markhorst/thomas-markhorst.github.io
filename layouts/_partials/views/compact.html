@@ -1,0 +1,70 @@
+{{ $item := .item }}
+{{ $year_value := $item.Params.event_start | default $item.Date }}
+{{ $year := (time $year_value).Format "2006" }}
+{{ $abstract := $item.Params.abstract | default (partial "functions/get_summary" $item) }}
+{{ $authors_text := "" }}
+{{ with $item.Params.authors }}{{ $authors_text = delimit . ", " }}{{ end }}
+{{ $authors_text = replace $authors_text "Thomas C. Markhorst" "<strong>Thomas C. Markhorst</strong>" }}
+{{ $authors_text = replace $authors_text "Thomas C Markhorst" "<strong>Thomas C Markhorst</strong>" }}
+{{ $authors_text = replace $authors_text "Thomas Markhorst" "<strong>Thomas Markhorst</strong>" }}
+{{ $venue := "" }}
+{{ with $item.Params.publication_short }}{{ $venue = . | plainify }}{{ end }}
+{{ if not $venue }}{{ with $item.Params.publication }}{{ $venue = . | plainify }}{{ end }}{{ end }}
+{{ if not $venue }}{{ with $item.Params.publication_types }}{{ $venue = printf "%v" (index . 0) }}{{ end }}{{ end }}
+{{ $title_link := $item.RelPermalink }}
+{{ $title_target := "" }}
+{{ with $item.Params.links }}
+  {{ range . }}
+    {{ if and .type (eq (lower .type) "source") .url }}
+      {{ $title_link = .url }}
+      {{ $title_target = "target=\"_blank\" rel=\"noopener\"" }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* Thumbnail priority: explicit image filename, then Figure 1 naming, then featured image fallback. */}}
+{{ $thumb := "" }}
+{{ if and $item.Params.image (reflect.IsMap $item.Params.image) $item.Params.image.filename }}
+  {{ $thumb = $item.Resources.GetMatch $item.Params.image.filename }}
+{{ end }}
+{{ if not $thumb }}{{ $thumb = $item.Resources.GetMatch "figure1*" }}{{ end }}
+{{ if not $thumb }}{{ $thumb = $item.Resources.GetMatch "figure-1*" }}{{ end }}
+{{ if not $thumb }}{{ $thumb = partial "functions/get_featured_image.html" $item }}{{ end }}
+
+<article class="py-4 border-b border-zinc-200/70 dark:border-zinc-700/70 last:border-0" role="article">
+  <div class="flex items-start gap-4">
+    <div class="min-w-0 flex-1">
+      <h3 class="text-base font-bold leading-snug text-zinc-900 dark:text-zinc-100">
+        <a href="{{ $title_link }}" {{ $title_target | safeHTMLAttr }} class="hover:underline">{{ $item.Title }}</a>
+      </h3>
+
+      <p class="mt-2 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+        {{ $abstract | plainify | htmlUnescape | truncate 220 }}
+      </p>
+
+      <p class="mt-2 text-xs text-zinc-500 dark:text-zinc-400">
+        {{ $authors_text | safeHTML }}{{ if $item.Date }}{{ if $authors_text }} · {{ end }}<strong>{{ $venue }}</strong>{{ end }}
+      </p>
+
+      {{ with $venue }}
+      {{/* <p class="mt-1 text-xs font-medium text-zinc-600 dark:text-zinc-300">{{ . }}</p> */}}
+      {{ end }}
+    </div>
+
+    <div class="shrink-0 w-28 sm:w-36">
+      <a href="{{ $item.RelPermalink }}" class="block">
+        {{ with $thumb }}
+          {{ $canProcess := and (reflect.IsImageResourceProcessable .) (ne .MediaType.SubType "gif") }}
+          {{ if $canProcess }}
+            {{ $img := .Fill "288x192 Center" }}
+            <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" loading="lazy" decoding="async" alt="{{ $item.Title | plainify }} thumbnail" class="w-full aspect-[3/2] object-cover rounded-md ring-1 ring-zinc-900/10 dark:ring-white/10"/>
+          {{ else }}
+            <img src="{{ .RelPermalink }}" loading="lazy" decoding="async" alt="{{ $item.Title | plainify }} thumbnail" class="w-full aspect-[3/2] object-cover rounded-md ring-1 ring-zinc-900/10 dark:ring-white/10"/>
+          {{ end }}
+        {{ else }}
+          <div class="w-full aspect-[3/2] rounded-md bg-zinc-100 dark:bg-zinc-800 ring-1 ring-zinc-900/10 dark:ring-white/10"></div>
+        {{ end }}
+      </a>
+    </div>
+  </div>
+</article>

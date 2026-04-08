@@ -1,132 +1,109 @@
-schema: hugoblox/author/v1
-slug: me
+schema: "hugoblox/author/v1"
+slug: "me"
 is_owner: true
 name:
-  display: 吳健雄
-  given: Shiung Wu
-  family: Chien
-  pronunciation: Chien Shiung Wu
-  pronouns: she/her
+  display: "Thomas Markhorst"
+  given: "Thomas"
+  family: "Markhorst"
 status:
   icon: "☕️"
-role: Director of Cloud Infrastructure
-bio: >
-  I am currently Director of Cloud Infrastructure at GenCoin where I am leading
-  teams on edge computing, deep sea data center architecture, and hivemind optimization.
+role: "PhD Student Computer Vision"
+bio: "I'm a PhD student at TU Delft working on artificial intelligence for human motion understanding and social interaction. My research explores how models can extract, represent, and reason over human behavior using multimodal signals such as video and 2D/3D pose.\ 
+
+
+  \ I design generative and transformer-based models that capture fine-grained, temporally coherent human motion, with a particular focus on multi-person settings. By leveraging structured representations of the body, I aim to improve how machines interpret actions, anticipate future behavior, and understand interactions between people.More broadly, I am interested in building AI systems that can reason about humans in context and operate effectively in socially complex environments.\n
+  
+  \ Previsouly I have worked as a computer vision research intern at Bosch and BMW, obtained my MSc cum laude & obtained my BSc cum laude and with honours.\n"
 affiliations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: "Delft University of Technology"
+    url: "https://www.tudelft.nl"
 links:
-  - icon: at-symbol
-    url: mailto:your-email@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/MakeOwnable
-  - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+  - icon: "at-symbol"
+    url: "mailto:t.c.markhorst@tudelft.nl"
+    label: "E-mail Me"
+  - icon: "brands/github"
+    url: "https://github.com/Thomas-Markhorst"
+  - icon: "brands/linkedin"
+    url: "https://www.linkedin.com/in/thomasmarkhorst/"
+  - icon: "brands/google-scholar"
+    url: "https://scholar.google.com/citations?user=7aXfjw4AAAAJ&hl=en"
 education:
-  - degree: PhD Artificial Intelligence
-    institution: Stanford University
-    start: 2016-01-01
-    end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - degree: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    start: 2016-01-01
-    end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+  - degree: "PhD Computer Vision"
+    institution: "Delft University of Technology"
+    start: "2024-03-15"
+    summary: "Researching how models can extract, represent, and reason over human behavior using multimodal signals such as video and 2D/3D pose."
+  - degree: "MSc Artificial Intelligence"
+    institution: "Delft University of Technology"
+    start: "2021-09-01"
+    end: "2023-08-31"
+    summary: " Graduated cum laude, GPA: 8.7, Thesis: 9.0.\ 
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - degree: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    start: 2016-01-01
-    end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      \ Published [MSc thesis](https://arxiv.org/abs/2409.08943) in ECCVw 2024\n"
+  - degree: "BSc Computer Science"
+    institution: "Delft University of Technology"
+    start: "2018-09-01"
+    end: "2021-7-31"
+    summary: "Graduated cum laude and with honours, GPA:8.9, Thesis: 9.5.\n"
 experience:
-  - role: Director of Cloud Infrastructure
-    org: GenCoin
-    start: 2021-01-01
-    summary: |
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - role: Backend Software Engineer
-    org: X
-    start: 2016-01-01
-    end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-skills:
-  - name: Technical Skills
-    items:
-      - label: Python
-        level: 4
-      - label: RStudio
-        level: 5
-      - label: PyTorch
-        level: 2
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - label: Hiking
-        level: 3
-      - label: Cats
-        level: 5
-      - label: Photography
-        level: 4
-languages:
-  - name: English
-    level: 5
-  - name: Chinese
-    level: 4
-  - name: Portuguese
-    level: 1
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: brands/coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: brands/edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: brands/datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+  - role: "BOSCH, The Netherlands"
+    org: "Computer Vision Research Intern"
+    start: "2022-12-01"
+    end: "2023-08-31"
+    summary: "
+
+      - MSc thesis on image enhancement and object classification in challenging light
+      
+      - Developed Neural Architecture Search to design models for mobile devices\n"
+  - role: "BMW, Germany"
+    org: "Computer Vision Research Intern"
+    start: "2016-01-01"
+    end: "2020-12-31"
+    summary: "
+      - Developed 6D object pose estimation using stereo vision
+
+      - Developed 3D synthetic data rendering tool, reducing manual labelling effort\n"
+  - role: "Krill Robotics, The Netherlands"
+    org: "Computer Vision Engineer"
+    start: "2019-02-01"
+    end: "2021-09-30"
+    summary: "
+      - Developed MVP object detection and avoidance for a robotic system on the water
+
+      - Brought the first version to the market in 1.5 years and secured governmental and industry funding\n"
+  - role: "Dutch Organization for Applied Sciences, The Netherlands"
+    org: "Software Engineering Intern"
+    start: "2017-02-01"
+    end: "2018-03-30"
+    summary: "
+      - Developed a robotic vehicle controlled using a VR system, enabling remote presence in hazardous situations
+
+      - Built an automated camera system tracking sports balls used for soccer game analysis\n"
+
+  # awards:
+#   - title: "Neural Networks and Deep Learning"
+#     url: "https://www.coursera.org/learn/neural-networks-deep-learning"
+#     date: "2023-11-25"
+#     awarder: "Coursera"
+#     icon: "brands/coursera"
+#     summary: "I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.\n"
+#   - title: "Blockchain Fundamentals"
+#     url: "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
+#     date: "2023-07-01"
+#     awarder: "edX"
+#     icon: "brands/edx"
+#     summary: "Learned:
+
+#       - Synthesize your own blockchain solutions
+
+#       - Gain an in-depth understanding of the specific mechanics of Bitcoin
+
+#       - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm\n"
+#   - title: "Object-Oriented Programming in R"
+#     url: "https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r"
+#     certificate_url: "https://www.datacamp.com"
+#     date: "2023-01-21"
+#     awarder: "datacamp"
+#     icon: "brands/datacamp"
+#     summary: "Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.\n"
+# ids:
+#   orcid: "0009-0001-1597-6140"

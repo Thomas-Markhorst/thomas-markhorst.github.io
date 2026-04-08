@@ -11,17 +11,17 @@ design:
 
 # Page sections
 sections:
-  - block: biography
+  - block: resume-biography
     content:
       username: me
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download Résumé
+        text: Download Resume
         url: uploads/resume.pdf
     design:
       show_status: false
       spacing:
-        padding: ['0', '0', '6rem', '0']
+        padding: ['0', '0', '0', '0']
       banner:
         # Upload your cover image to the `assets/media/` folder and reference it here
         filename: kalen-emsley-Bkci_8qcdvQ-unsplash.jpg
@@ -30,26 +30,27 @@ sections:
         style: 'text-align: justify; font-size: 0.8em;'
       # Avatar customization
       avatar:
-        size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: rounded # Options: circle (default), square, rounded
-  - block: experience
+  - block: collection
+    id: publications
     content:
-      username: me
+      title: Publications
+      filters:
+        folders:
+          - publications
     design:
-      # Hugo date format
-      date_format: 'January 2006'
-      # Education or Experience section first?
-      is_education_first: false
-  - block: skills
-    content:
-      title: Skills & Hobbies
-      username: me
-  - block: awards
-    content:
-      title: Awards
-      username: me
-  - block: languages
-    content:
-      title: Languages
-      username: me
+      view: compact
+  # - block: skills
+  #   content:
+  #     title: Skills & Hobbies
+  #     username: me
+  # - block: awards
+  #   content:
+  #     title: Awards
+  #     username: me
+  # - block: languages
+  #   content:
+  #     title: Languages
+  #     username: me
 ---
