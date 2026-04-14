@@ -41,24 +41,24 @@ tags:
 featured: false
 hugoblox:
   ids:
-    arxiv: ""
+    arxiv: "2604.09715"
 links:
-  - type: pdf
-    url: ""
-  - type: code
-    url: ""
-  - type: dataset
-    url: ""
-  - type: poster
-    url: ""
-  - type: project
-    url: ""
-  - type: slides
-    url: ""
+  # - type: pdf
+  #   url: ""
+  # - type: code
+  #   url: ""
+  # - type: dataset
+  #   url: ""
+  # - type: poster
+  #   url: ""
+  # - type: project
+  #   url: ""
+  # - type: slides
+    # url: ""
   - type: source
-    url: ""
-  - type: video
-    url: ""
+    url: "https://arxiv.org/abs/2604.09715"
+  # - type: video
+  #   url: ""
 image:
   caption: "Image credit: [**Unsplash**](https://unsplash.com)"
   focal_point: ""
