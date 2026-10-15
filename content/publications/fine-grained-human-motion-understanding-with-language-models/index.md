@@ -12,10 +12,10 @@ date: 2026-06-22T09:36:29.779Z
 publishDate: 2026-06-22T09:36:29.779Z
 publication_types:
   - article-journal
-publication: "pre-print"
+publication: "WACV 2027"
 publication_short: ""
 abstract: |
-  In this work, we propose FiGMo, an LLM-based model for fine-grained human motion understanding that represents motion as a sequence of skeletal poses with explicit timestamps for each pose. Each pose encodes body joint positions and is temporally grounded with timestamp tokens, allowing the model to reason about motion order, duration, and rhythm. To study what supervision is needed for motion-language reasoning, we construct a diverse training mixture spanning pose captioning, pose question answering, motion captioning, and motion question answering. Our ablations show that the primary gains come from the diversity of pose- and motion-level supervision, while staged training provides a smaller additional benefit. Different from previous works that rely on ground-truth 3D motion capture, our approach supports both 2D and 3D skeletal motion representations through a unified pose encoder, and can optionally incorporate video to provide contextual information. Extensive experiments on BABEL-QA, HuMMan-QA, CompMo, NTU-RGB+D, and QEVD-Coach demonstrate that our method achieves state-of-the-art performance across multiple benchmarks, highlighting the effectiveness of explicit temporal encoding and diverse pose- and motion-level supervision for fine-grained human motion understanding. Notably, even when using only 2D skeletal input, our approach surpasses previous 3D-based methods
+  Fine-grained motion understanding requires knowing not only which poses occur, but also when they occur. Existing motion-language models either compress motion clips or concatenate pose features without retaining the timing of each pose, making action duration and temporal scale ambiguous under temporal subsampling. We introduce FiGMo, an LLM-based model that represents motion as timestamp-grounded skeletal poses, supporting reasoning over action order and duration. A unified pose encoder applies this representation to both 2D and 3D skeletons, including poses detected from real videos, while RGB can optionally provide contextual information. To reason over timestamped pose sequences, the model must understand both individual body configurations and how they change over time. As existing data provides limited pose-level grounding, we construct the required pose-to-motion supervision. Controlled experiments show that timestamps improve temporal localization and preserve physical timing under subsampling, while the constructed supervision drives the main performance gains. FiGMo achieves state-of-the-art results across motion question answering, dense motion captioning, and action recognition with detected poses. Our code is available at: https://github.com/Thomas-Markhorst/FiGMo
 summary: One-line takeaway for readers skimming listings.
 tags: null
 featured: true
@@ -24,7 +24,7 @@ hugoblox:
     arxiv: ""
 links:
   - type: pdf
-    url: https://thomas-markhorst.github.io/uploads/figmo_preprint.pdf
+    url: https://arxiv.org/abs/2606.20888v1
   - type: code
     url: ""
   - type: dataset
@@ -36,7 +36,7 @@ links:
   - type: slides
     url: ""
   - type: source
-    url: https://thomas-markhorst.github.io/uploads/figmo_preprint.pdf
+    url: https://arxiv.org/abs/2606.20888v1
   - type: video
     url: ""
 image:
