@@ -24,7 +24,7 @@ hugoblox:
     arxiv: ""
 links:
   - type: pdf
-    url: https://arxiv.org/abs/2606.20888v1
+    url: https://arxiv.org/abs/2606.20888v2
   - type: code
     url: ""
   - type: dataset
@@ -36,7 +36,7 @@ links:
   - type: slides
     url: ""
   - type: source
-    url: https://arxiv.org/abs/2606.20888v1
+    url: https://arxiv.org/pdf/2606.20888v2
   - type: video
     url: ""
 image:
